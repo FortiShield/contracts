@@ -1,5 +1,5 @@
 {
-  "name": "@thirdweb-dev/contracts",
+  "name": "@egiftcard/contracts",
   "description": "",
   "version": "2.3.0-6",
   "license": "Apache-2.0",
@@ -11,9 +11,9 @@
     "@chainlink/contracts": "^0.8.0",
     "@openzeppelin/contracts": "^4.9.3",
     "@openzeppelin/contracts-upgradeable": "^4.9.3",
-    "@thirdweb-dev/chains": "^0.1.54",
-    "@thirdweb-dev/dynamic-contracts": "^1.2.4",
-    "@thirdweb-dev/sdk": "^4.0.22",
+    "@egiftcard/chains": "^0.1.97",
+    "@egiftcard/dynamic-contracts": "^1.2.4",
+    "@egiftcard/sdk": "^4.0.66",
     "@typechain/ethers-v5": "^10.2.1",
     "@types/fs-extra": "^9.0.13",
     "@types/mocha": "^9.1.1",
@@ -59,6 +59,6 @@
     "forge:test": "forge test",
     "gas": "forge snapshot --mc Benchmark --gas-report --diff .gas-snapshot > gasreport.txt",
     "forge:snapshot": "forge snapshot --check",
-    "aabenchmark": "forge test --mc AABenchmarkPrepare && forge test --mc ProfileThirdwebAccount -vvv"
+    "aabenchmark": "forge test --mc AABenchmarkPrepare && forge test --mc ProfileEgiftcardAccount -vvv"
   }
 }
